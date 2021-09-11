@@ -76,7 +76,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: #cd5353;
+    background: #0384fc;
     -webkit-transform: scaleX(0);
     -ms-transform: scaleX(0);
     transform: scaleX(0);
@@ -114,7 +114,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: #cd5353;
+    background: #0384fc;
     -webkit-transform: scaleX(1);
     -ms-transform: scaleX(1);
     transform: scaleX(1);
@@ -133,7 +133,7 @@
 }
 .lang-nav li a.active {
     color: #ffffff;
-    background: #cd5353;
+    background: #0384fc;
 }
 .lang-nav ul li a img {
     position: absolute;

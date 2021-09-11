@@ -149,7 +149,7 @@ iframe{
     width: 120px;
 }
 .divider-m  .zigzag.medium, .divider .zigzag.large{
-	stroke: #cd5353;
+	stroke: #0384fc;
 	stroke-width: 4.3;
 }
 	/* Fin Titre */
@@ -303,10 +303,10 @@ nav.main-nav ul,
     background: #33373d;
 }
 .but.opc-2 {
-    background: #cd5353;
+    background: #0384fc;
 }
 .but.opc-3 {
-    background: #cd5353;
+    background: #0384fc;
 }
 .but.opc-1.ico,
 .but.opc-2.ico,
@@ -583,7 +583,7 @@ figure.pushup:hover figcaption {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #cd5353;
+    background: #0384fc;
     -webkit-transform: scaleX(0);
     -ms-transform: scaleX(0);
     transform: scaleX(0);
@@ -621,7 +621,7 @@ figure.pushup:hover figcaption {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #cd5353;
+    background: #0384fc;
     -webkit-transform: scaleX(1);
     -ms-transform: scaleX(1);
     transform: scaleX(1);
@@ -640,7 +640,7 @@ figure.pushup:hover figcaption {
 }
 .main-nav li a.active {
     color: #ffffff;
-    background: #cd5353;
+    background: #0384fc;
 }
 .main-nav ul li a i {
     position: absolute;
@@ -660,8 +660,8 @@ figure.pushup:hover figcaption {
     width: 35px;
 }
 .social a:hover {
-    border: 2px solid #cd5353;
-    color: #cd5353;
+    border: 2px solid #0384fc;
+    color: #0384fc;
 }
 .social li i {
     line-height: 32px;
@@ -744,7 +744,7 @@ figure.pushup:hover figcaption {
     border-bottom: none;
 }
 a.value {
-    color: #CD5353!important;
+    color: #0384fc!important;
 }
 .vc {
     display: -webkit-flex;
@@ -776,13 +776,13 @@ a.value {
     margin-bottom: 0;
 }
 .skill.dev .progress {
-    border: 1px solid #cd5353;
+    border: 1px solid #0384fc;
 }
 .skill.prs .progress {
     border: 1px solid #33373d;
 }
 .skill.lang .progress {
-    border: 1px solid #cd5353;
+    border: 1px solid #0384fc;
 }
 .progress .percentage {
     border-radius: 50px 0 0 50px;
@@ -795,13 +795,13 @@ a.value {
     top: 0;
 }
 .skill.dev .progress .percentage {
-    background-color: #cd5353;
+    background-color: #0384fc;
 }
 .skill.prs .progress .percentage {
     background-color: #33373d;
 }
 .skill.lang .progress .percentage {
-    background-color: #cd5353;
+    background-color: #0384fc;
 }
 .percentage .percent {
     position: absolute;
@@ -809,6 +809,37 @@ a.value {
     top: -30px;
     font-size: 11px;
 }
+
+
+
+.progress .percentage1 {
+    border-radius: 50px 0 0 50px;
+    -moz-border-radius: 50px 0 0 50px;
+    -webkit-border-radius: 50px 0 0 50px;
+    -ms-border-radius: 50px 0 0 50px;
+    -o-border-radius: 50px 0 0 50px;
+    bottom: 0;
+    position: absolute;
+    top: 0;
+}
+.skill.dev .progress .percentage1 {
+    background-color: #0384fc;
+}
+.skill.prs .progress .percentage1 {
+    background-color: #33373d;
+}
+.skill.lang .progress .percentage1 {
+    background-color: #0384fc;
+}
+.percentage1 .percent {
+    position: absolute;
+    right: -14px;
+    top: -30px;
+    font-size: 11px;
+}
+
+
+
 .skills-list h4 {
     display: block;
     text-transform: uppercase;
@@ -828,13 +859,13 @@ a.value {
     top: 0;
 }
 .skill .title.dev {
-    border: 1px dashed #cd5353;
+    border: 1px dashed #0384fc;
 }
 .skill .title.prs {
     border: 1px dashed #33373d;
 }
 .skill .title.lang {
-    border: 1px dashed #cd5353;
+    border: 1px dashed #0384fc;
 }
 .timeline {
     position: relative;
@@ -871,7 +902,7 @@ a.value {
     line-height: 45px;
 }
 .timeline:hover:after {
-    color: #CD5353;
+    color: #0384fc;
 }
 .timeline.experience:after {
     content: '\e8ba';
@@ -886,7 +917,7 @@ a.value {
     margin-bottom: 10px;
 }
 .exp:after {
-    background: #cd5353;
+    background: #0384fc;
     border: 3px solid #ffffff;
     content: "";
     height: 15px;
@@ -916,9 +947,9 @@ h6 {
 }
 .exp .hgroup h6 span.current {
     color: #ffffff;
-    background: #cd5353;
+    background: #0384fc;
     border-radius: 6px;
-    -moz-border-radius: 6px -webkit-border-radius:6px;
+    -moz-border-radius: 6px; -webkit-border-radius:6px;
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
     padding: 1px 12px;
@@ -929,7 +960,7 @@ h6 {
 .block.service .ico {
     font-size: 30px;
     margin-bottom: 10px;
-    color: #cd5353;
+    color: #0384fc;
 }
 .block-quote {
     background: #efefef;
@@ -1000,10 +1031,10 @@ h6 {
     color: #33373d;
 }
 .filter li a:hover {
-    color: #cd5353;
+    color: #0384fc;
 }
 .filter li a.active {
-    color: #cd5353;
+    color: #0384fc;
 }
 .item {
     position: relative;
@@ -1076,7 +1107,7 @@ h6 {
     padding: 5px;
 }
 .block-nav-work li a:hover {
-    color: #cd5353;
+    color: #0384fc;
 }
 .block-single h1.large-title {
     font-size: 40px;
@@ -1165,7 +1196,7 @@ h6 {
     top: 0;
 }
 .errorForm {
-    border: 1px solid #cd5353 !important;
+    border: 1px solid #0384fc !important;
 }
 .info-holder {
     border: 1px solid #efefef;
@@ -1183,7 +1214,7 @@ h6 {
     line-height: 30px;
 }
 .address-info i {
-    background: #cd5353;
+    background: #0384fc;
     color: #ffffff;
     display: inline-block;
     font-size: 28px;
@@ -1210,7 +1241,7 @@ h6 {
     transition-timing-function: ease-out;
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
-    background-color: #cd5353;
+    background-color: #0384fc;
 }
 .contact-info li {
     display: inline-block;

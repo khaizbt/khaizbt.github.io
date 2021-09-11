@@ -27,7 +27,7 @@
         //------------------------------------- Debut init prognoll ------------------------------------------------//
         $("body").prognroll({
             height: 5,
-            color: "#CD5353",
+            color: "#0384fc",
             custom: false
         });
         //------------------------------------- Fin init prognoll ------------------------------------------------//
@@ -54,6 +54,7 @@
         //------------------------------------- Debut de la Fonction de barre de progression ------------------------------------------------//
         $(".percentage").each(function () {
             var width = $(this).text();
+           
             $(this).css("width", width).empty();
             $(this)
                 .data("origWidth", $(this).width())
@@ -62,10 +63,21 @@
                     width: $(this).data("origWidth")
                 }, 5000);
         });
+
+        $(".percentage1").each(function () {
+            var width = $(this).text();
+            $(this).css("width", width).empty();
+            // $(this)
+            //     .data("origWidth", $(this).width())
+            //     .width(0)
+            //     .animate({
+            //         width: $(this).data("origWidth")
+            //     }, 5000);
+        });
         //------------------------------------- Fin de la Fonction de barre de progression ------------------------------------------------//
 
         //------------------------------------- Debut de la Fonction de Slider ------------------------------------------------//
-        $("#testimonial-carousel").owlCarousel({
+        $(".testimonial-carousel").owlCarousel({
             navigation: false,
             slideSpeed: 300,
             paginationSpeed: 400,
@@ -102,20 +114,27 @@
             }
         });
         $('#en').click(function(e) {
+            
             e.preventDefault();
-            $('#fr').removeClass('active');
+            $('#id').removeClass('active');
+            $('#languages').html('Language')
             $('#en').addClass('active');
-            $('#lang-fr').fadeOut(500);
-            $('#lang-en').fadeIn(500);
-            '#lang-fr'.location.reload(true)
-        });
-        $('#fr').click(function(e) {
-            e.preventDefault();
-            $('#en').removeClass('active');
-            $('#fr').addClass('active');
             $('#lang-en').fadeOut(500);
-            $('#lang-fr').fadeIn(500);
-            '#lang-fr'.location.reload(true)
+            $('#lang-id').fadeIn(500);
+            
+            
+        });
+        $('#id').click(function(e) {
+            
+            e.preventDefault();
+            $('#about1').addClass('active')
+            $('#about1').show()
+            $('#languages').html('Bahasa')
+
+            $('#en').removeClass('active');
+            $('#id').addClass('active');
+            $('#lang-id').fadeOut(500);
+            $('#lang-en').fadeIn(500);
         });
         //------------------------------------- Fin du switcher ------------------------------------------------//
 

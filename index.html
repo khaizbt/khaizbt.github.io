@@ -1,27 +1,10 @@
-<!--============ Sommaire ============
-	1. Head [21 - 40]
-		1.1 Meta [23 - 26]
-		1.2 Css [29 - 36]
-	2. Body [41 - 97 ]
-		2.1 Chargement de page [43 - 47]
-		2.2 Colonne de gauche [55 - 88]
-		2.3 A propos de moi [93 - 550]
-		2.4 Portfolio [553 - 829]
-		2.5 Contact [832 - 932]
-	3. JavaScript [942 - 969]
--->	
-
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
 <html class="no-js" lang="fr">
 <!--<![endif]-->
     <head>
         <!-- Metas -->
         <meta charset="utf-8">
-        <title>Sam Ronvaux</title>
+        <title>CV | Khaiz Badaru Tammam</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
@@ -47,31 +30,30 @@
 		<![endif]-->
     </head>
     <body>
-        <!-- Debut du Chargement -->
+        <!-- Begin Body -->
         <div id="loader">
             <div id="loaderInner">
                 <div class="spinner"></div>
             </div>
         </div>
-        <!-- Fin du Chargement -->
         <!-- Debut du Wrapper -->
         <div id="wrapper" class="margLTop  margLBottom">
-            <!-- Debut changement de langue -->
+            <!-- Begin change language -->
             <div class="switcher">
                 <div>
-                    <h2>Langue</h2>
+                    <h2 id="languages">Language</h2>
                     <a class="toggle" href="#"><i class="icon-language"></i></a>
                     <nav id="lang-nav" class="lang-nav clearfix tabbed">
                         <ul>
-                            <li><a class="active" id="fr" href="#"><img class="icon-language" src="style/img/icon/lang-fr.png"/>Français</a></li>
-                            <li><a href="#" id="en"><img class="icon-language" src="style/img/icon/lang-en.png"/>English</a></li>
+                            <li><a class="active"  href="#" id="en"><img class="icon-language" src="style/img/icon/lang-us.png"/>English</a></li>
+                            <li><a id="id" href="#"><img class="icon-language" src="style/img/icon/lang-id.png"/>Indonesia</a></li>
                         </ul>
                     </nav>
                 </div>            
             </div>
             <!-- Fin changement de langue -->
             <!-- Debut du Container Français-->
-            <div id="lang-fr" class="container">
+            <div id="lang-id" class="container">
                 <div class="row ">
                     <!-- Debut de la colonne de gauche (profile) -->
                     <div class="col-md-3 nopr left-content">
@@ -82,14 +64,14 @@
                                 <figure class="img-profile pushup">
                                     <img src="style/img/profile.jpg" alt="" />
                                         <figcaption class="name-profile">
-                                            <span>Sam Ronvaux</span>
+                                            <span>Khaiz Badaru Tammam</span>
                                         </figcaption>
                                 </figure>
                                 <!-- Fin de l'image de profile -->
                                 <!-- Debut du menu de navigation -->
                                 <nav id="main-nav" class="main-nav clearfix tabbed">
                                     <ul>
-                                        <li><a href="#about"><i class="icon-user"></i>A propos</a></li>
+                                        <li><a href="#about"><i class="icon-user"></i>Profile</a></li>
                                         <li><a href="#portfolio"><i class="icon-camera"></i>Portfolio</a></li>
                                         <li><a href="#contact"><i class="icon-phone"></i>Contact</a></li>
                                     </ul>
@@ -99,9 +81,9 @@
                             <!-- Debut des icones de réseaux sociaux -->
                             <div class="bottom-header ofsTSmall ofsBSmall tCenter">
                                 <ul class="social">
-                                    <li><a href="https://www.facebook.com/sam.ronvaux" target="_blank"><i class="icon-facebook"></i></a></li>
-                                    <li><a href="https://github.com/Syr4Z" target="_blank"><i class="icon-github"></i></a></li>
-                                    <li><a href="https://be.linkedin.com/in/sam-ronvaux" target="_blank"><i class="icon-linkedin"></i></a></li>
+                                    <li><a href="https://www.facebook.com/khaizbt" target="_blank"><i class="icon-facebook"></i></a></li>
+                                    <li><a href="https://github.com/khaizbt" target="_blank"><i class="icon-github"></i></a></li>
+                                    <li><a href="https://be.linkedin.com/in/khaizbt" target="_blank"><i class="icon-linkedin"></i></a></li>
                                 </ul>
                             </div>
                             <!-- Fin des icones de réseaux sociaux -->
@@ -133,7 +115,7 @@
                                     <div class="block-content margBSmall">
                                         <div class=" profile margBSmall">
                                             <h1>Khaiz Badaru Tammam</h1>
-                                            <h3>Backend Developer</h3>
+                                            <h3>Software Developer</h3>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-12">
@@ -141,7 +123,7 @@
                                                     Intro
                                                 </h4>
                                                 <div id="t">
-                                                    <del>My Home Work</del>
+                                                    
                                                     Lovers of challenges, Lovers of Bugs but hates it when the Bug lodges in Production. Don't sleep well if the problem isn't resolved. I work as a backend developer and work on freelance projects. I really like traveling, hiking when I am tired of the hustle and bustle of work.
                                                 </div>
                                             </div>
@@ -155,8 +137,8 @@
                                                 <!-- Debut de la colonne 1 -->
                                                 <div class="col-md-6">
                                                     <ul class="info-list clearfix wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="0s">
-                                                        <li><span class="inf">First Name :</span> <span class="value"> Khaiz Badaru  </span></li>
-                                                        <li><span class="inf">Age :</span> <span class="value"> 23 yo. </span></li>
+                                                        <li><span class="inf">Name :</span> <span class="value"> Khaiz Badaru  Tammam</span></li>
+                                                        <li><span class="inf">Age :</span> <span class="value"> 24 yo. </span></li>
                                                         <li><span class="inf">Email :</span> <span class="value"><a class="value" href="mailto:tammam.dev@gmail.com">tammam.dev[at]gmail.com</a></span></li>
                                                     </ul>
                                                 </div>
@@ -164,7 +146,7 @@
                                                 <!-- Debut de la colonne 2 -->
                                                 <div class="col-md-6">
                                                     <ul class="info-list clearfix wow slideInRight" data-wow-duration="1.5s" data-wow-delay="0s">
-                                                        <li><span class="inf">Last Name :</span> <span class="value">Tammam/span></li>
+                                                        <li><span class="inf">Telegram :</span> <span class="value"><a class="value" href="https://t.me/khaizbt/" target="_blank">Khaiz Badaru Tammam</a></span></li>
                                                         <li><span class="inf">LinkedIn :</span> <span class="value"><a class="value" href="https://www.linkedin.com/in/khaiz-badaru-tammam-181965192/" target="_blank">Khaiz Badaru Tammam</a></span></li>
                                                         <li><span class="inf">Phone :</span> <span class="value"><a class="value" href="https://wa.me/6288806666381">+62 888 06666 381</a></span></li>
                                                     </ul>
@@ -201,7 +183,7 @@
                                                                 <h4>HTML/CSS</h4>
                                                                 <div class="progress">
                                                                     <div class="percentage">
-                                                                        85%
+                                                                        75%
                                                                     </div>
                                                                 </div>
                                                             </li>
@@ -221,19 +203,20 @@
                                                                     </div>
                                                                 </div>
                                                             </li>
-                                                            <li class="wow slideInLeft">
-                                                                <h4>MYSQL</h4>
-                                                                <div class="progress">
-                                                                    <div class="percentage">
-                                                                        70%
-                                                                    </div>
-                                                                </div>
-                                                            </li>
+                                                            
                                                             <li class="wow slideInLeft">
                                                                 <h4>GOLANG</h4>
                                                                 <div class="progress">
                                                                     <div class="percentage">
                                                                         40%
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="wow slideInLeft">
+                                                                <h4>MongoDB</h4>
+                                                                <div class="progress">
+                                                                    <div class="percentage">
+                                                                        75%
                                                                     </div>
                                                                 </div>
                                                             </li>
@@ -269,6 +252,14 @@
                                                                 <div class="progress">
                                                                     <div class="percentage">
                                                                         85%
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="wow slideInLeft">
+                                                                <h4>Problem Solving</h4>
+                                                                <div class="progress">
+                                                                    <div class="percentage">
+                                                                        83%
                                                                     </div>
                                                                 </div>
                                                             </li>
@@ -359,20 +350,42 @@
                                                     	<!-- Debut d'un diplome -->
                                                         <div class="exp wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
                                                             <div class="hgroup">
+                                                                <h4>Re-Cloud Challenges Indonesia 2021</h4>
+                                                                <h5>Codepolitan & Alibaba Edu</h5>
+                                                                <h6><i class="icon-calendar"></i>March 2021</h6>
+                                                            </div>
+                                                            <p>A certification of participation in events from Alibaba Edu and Codepolitan. This event contains challenges and presents a website to be tested and find out who makes the best website</p>
+                                                            <a href="https://xuecdn2.aliyunedu.net/img_4b1940d39a224d359405c9e3b596f361.png" target="_blank">View Credential</a>
+                                                        </div>
+                                                        <div class="exp wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
+                                                            <div class="hgroup">
+                                                                <h4>Operate and Manage Cloud Server</h4>
+                                                                <h5>Alibaba Edu</h5>
+                                                                <h6><i class="icon-calendar"></i>Feb 2021</h6>
+                                                            </div>
+                                                            <p>A passing certification in managing Alibaba Cloud /VPS Server</p>
+                                                            <a href="https://xuecdn2.aliyunedu.net/img_57e6ae9439993ef8cd47b19889b01569.png" target="_blank">View Credential</a>
+                                                        </div>
+                                                        <div class="exp wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
+                                                            <div class="hgroup">
+                                                                <h4>Operate and Manage Relational Database on the Cloud</h4>
+                                                                <h5>Alibaba Edu</h5>
+                                                                <h6><i class="icon-calendar"></i>Feb 2021</h6>
+                                                            </div>
+                                                            <p>A passing certification in managing Relational Database on Alibaba Cloud/VPS Server</p>
+                                                            <a href="https://xuecdn2.aliyunedu.net/img_9f6b6a48df08c804d0549be0fe820e8c.png" target="_blank">View Credential</a>
+                                                        </div>
+                                                        <div class="exp wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
+                                                            <div class="hgroup">
                                                                 <h4>Foresec Certified Networking Security</h4>
+                                                                <h5>Foresec</h5>
                                                                 <h6><i class="icon-calendar"></i>Sept 2017</h6>
                                                             </div>
                                                             <p>This program provides participants with knowledge and skills that are essential for carrying out security responsibilities in their organization.</p>
                                                         </div>
                                                         <!-- Fin d'un diplome -->
                                                         <!-- Debut d'un diplome -->
-                                                        <div class="exp wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
-                                                            <div class="hgroup">
-                                                                <h4>Trust Microsoft Partner, Office</h4>
-                                                                <h6><i class="icon-calendar"></i>Oct 2017</h6>
-                                                            </div>
-                                                            <p>Certifications that test proficiency in Microsoft Office areas such as Word, Excel and Powerpoint</p>
-                                                        </div>
+                                                       
                                                         <!-- Fin d'un diplome -->
                                                         <!-- Debut d'un diplome -->
                                                        
@@ -407,7 +420,7 @@
                                                         <div class="exp wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
                                                             <div class="hgroup">
                                                                 <h4>CV. Technopartner Indonesia - Backend Developer</h4>
-                                                                <h6><i class="icon-calendar"></i>Due 21 Jan - <span class="current">Maintenant</span></h6>
+                                                                <h6><i class="icon-calendar"></i>Due 21 Jan 2020 - <span class="current">Maintenant</span></h6>
                                                             </div>
                                                             <p>Developement Web Applications and Creating Rest APIs and Maintenance Applications</p>
                                                         </div>
@@ -456,7 +469,7 @@
                                                                 <h4>Amikom Purwokerto University</h4>
                                                                 <h6><i class="icon-calendar"></i>Oct 2015 - Agust 2019</h6>
                                                             </div>
-                                                            <p>Bachelor of Information Technology</p>
+                                                            <p>Bachelor of Information Technology | <span><b>GPA : 3.49</b></span></p>
                                                         </div>
                                                         <!-- Fin d'une formation -->
                                                         <!-- Debut d'une formation -->
@@ -497,11 +510,11 @@
                                                 <div class="block service tCenter">
                                                     <div class="col-md-4">
                                                         <div class="ico wow flipInY" data-wow-duration="2s" data-wow-delay="0s">
-                                                            <i class="icon-lifebuoy"></i>
+                                                            <i class="icon-compass"></i>
                                                         </div>
                                                         <div class="det wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
-                                                            <h3>Dépannage</h3>
-                                                            <p>Toujours disponible pour aider mes proches ou approfondir mes connaissances informatiques.</p>
+                                                            <h3>Hiking</h3>
+                                                            <p>There are times when you want to refresh your brain so you can get excited again</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-4">
@@ -513,8 +526,8 @@
                                                             <i class="icon-print-1"></i>
                                                         </div>
                                                         <div class="det wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
-                                                            <h3>Impression et gravure</h3>
-                                                            <p>Toujours à la recherche de connaissance j'occupe une partie de mon temps à faire des impressions 3D et de la gravure laser sur mon ancien lieu de stage.</p>
+                                                            <h3>Making a bug</h3>
+                                                            <p>Sometimes I make bugs to be fixed and produce a good application</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -537,8 +550,8 @@
                                                             <i class="icon-monitor"></i>
                                                         </div>
                                                         <div class="det wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">
-                                                            <h3>WebMaster</h3>
-                                                            <p>Je réalise des sites web afin de m'entraîner au développement et à de nouvelles technologies.</p>
+                                                            <h3>Learn What's new</h3>
+                                                            <p>Technology continues to develop, if we are complacent about what is now we will be left behind</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-4">
@@ -547,11 +560,11 @@
                                                     </div>
                                                     <div class="col-md-4">
                                                         <div class="ico">
-                                                            <i class="icon-tools wow flipInY" data-wow-duration="2s" data-wow-delay="1.2s"></i>
+                                                            <i class="icon-tape wow flipInY" data-wow-duration="2s" data-wow-delay="1.2s"></i>
                                                         </div>
                                                         <div class="det wow fadeIn" data-wow-duration="2s" data-wow-delay="1.4s">
-                                                            <h3>Dévelopement</h3>
-                                                            <p>Je réalise différentes applications afin d'approfondir mes connaissances en Windev</p>
+                                                            <h3>Gaming</h3>
+                                                            <p>To get rid of boredom in coding, there are times to relax for a moment</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -560,9 +573,9 @@
                                     </div>
                                 </div>
                                 <!-- Fin du contenu de mes hobbys -->
-                                <!-- Debut du titre des avis -->
+                                
                                 <div class="main-title">
-                                    <h1>Avis me concernant</h1>
+                                    <h1>Recomendation</h1>
                                     <div class="divider">
                                         <div class="zigzag large clearfix " data-svg-drawing="yes">
                                             <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -579,41 +592,84 @@
                                             <div class="row ">
                                                 <div class="col-md-12">
                                                     <div class="testi clearfix wow fadeIn" data-wow-duration="2s">
-                                                        <ul id="testimonial-carousel">
+                                                        <ul class="testimonial-carousel">
                                                             <li>
                                                                 <div class="block-quote">
                                                                     <div class="block-img">
-                                                                        <img alt="" src="style/img/testimonial/1.jpg">
+                                                                        <img alt="" src="style/img/testimonial/farhan-fauzan.jfif">
                                                                     </div>
+                                                                    
+                                                                    
                                                                     <div class="block-icon">
                                                                         <i class="icon-quote"></i>
                                                                     </div>
                                                                     <h3 class="block-profile">
-                                                                        Michel Jadot
-                                                                        <span> Coordinateur / EPN de Huy</span>
+                                                                        Farhan Fauzan
+                                                                        <span> Backend Developer at Avo Innovation & Technology</span>
                                                                     </h3>
                                                                     <blockquote>
-                                                                        Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la majeure partie d'entre elles a été altérée par l'addition d'humour ou de mots aléatoires qui ne ressemblent pas une seconde à du texte standard. Si vous voulez utiliser un passage du Lorem Ipsum, vous devez être sûr qu'il n'y a rien d'embarrassant caché dans le texte
+                                                                        Hello there, let me introduce you to my fellow and also my close friends at CV Technopartner Indonesia. His name is Khaiz Badaru Tammam but you could also call him Temmem. He is a very passionate programmer who work so hard to be on the top even though he still far away from it. But still, you can count of him! Just be careful of his dad jokes and mind blowing random puzzle games.
                                                                     </blockquote>
                                                                 </div>
                                                             </li>
                                                             <li>
                                                                 <div class="block-quote">
                                                                     <div class="block-img">
-                                                                        <img alt="" src="style/img/testimonial/2.jpg">
+                                                                        <img alt="" src="style/img/testimonial/fenny.jfif">
                                                                     </div>
+                                                                    
                                                                     <div class="block-icon">
                                                                         <i class="icon-quote"></i>
                                                                     </div>
                                                                     <h3 class="block-profile">
-                                                                        Nom Prenom
-                                                                        <span> Poste / Société</span>
+                                                                        Fenny Meinawati
+                                                                        <span> Software Quality Assurance at AVO Innovation & Technology</span>
                                                                     </h3>
                                                                     <blockquote>
-                                                                        Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la majeure partie d'entre elles a été altérée par l'addition d'humour ou de mots aléatoires qui ne ressemblent pas une seconde à du texte standard. Si vous voulez utiliser un passage du Lorem Ipsum, vous devez être sûr qu'il n'y a rien d'embarrassant caché dans le texte
+                                                                        I worked in a team with him at Technopartner Indonesia. He is active in the discussion and does not hesitate to ask questions. Every day there are more innovations that he can apply in all projects. He likes to make jokes so that the team doesn't get bored. Interesting person!
                                                                     </blockquote>
                                                                 </div>
                                                             </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Debut du titre des avis -->
+                                <div class="main-title">
+                                    <h1>My Motto</h1>
+                                    <div class="divider">
+                                        <div class="zigzag large clearfix " data-svg-drawing="yes">
+                                            <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+	                                           <path d="M1.357,12.26 10.807,2.81 20.328,12.332 29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Fin du titre des avis -->
+                                <!-- Debut du contenu des avis -->
+                                <div class="content">
+                                    <div class="block-content">
+                                        <div class="testimonials">
+                                            <div class="row ">
+                                                <div class="col-md-12">
+                                                    <div class="testi clearfix wow fadeIn" data-wow-duration="2s">
+                                                        <ul class="testimonial-carousel">
+                                                            <li>
+                                                                <div class="block-quote">
+                                                                    
+                                                                    <div class="block-icon">
+                                                                        <i class="icon-quote"></i>
+                                                                    </div>
+                                                                   
+                                                                    <blockquote>
+                                                                        Do not tell God if you have a big problem, but tell the problem if you have a Great God
+                                                                    </blockquote>
+                                                                </div>
+                                                            </li>
+                                                            
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -633,8 +689,8 @@
                                     </div>
                                     <div class="row ">
                                         <div class="col-md-12">
-                                            <a class="but opc-1 ico" href="#">Télécharger mon CV</a>
-                                            <a class="but opc-2 ico" href="javascript:window.print()">Imprimer mon CV</a>
+                                            <a class="but opc-1 ico" href="#">Lihat CV</a>
+                                            <a class="but opc-2 ico" href="javascript:window.print()">Print CV</a>
                                         </div>
                                     </div>
                                 </div>
@@ -648,7 +704,7 @@
                             <div class="portfolio">
                                 <!-- Debut du titre du portfolio -->
                                 <div class="main-title">
-                                    <h1>Mes Travaux</h1>
+                                    <h1>My Portfolio</h1>
                                     <div class="divider">
                                         <div class="zigzag large clearfix " data-svg-drawing="yes">
                                             <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -889,7 +945,7 @@
                         	<div class="contact">
                                 <!-- Debut du titre de la carte -->
 								<div class="main-title">
-								    <h1>Carte</h1>
+								    <h1>Location</h1>
 									<div class="divider">
 									   <div class="zigzag large clearfix "  data-svg-drawing="yes" >
                                             <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -900,23 +956,24 @@
                                 </div>
                                 <!-- Fin du titre de la carte -->
                                 <!-- Debut de la carte -->
-                                <!--<div class="content">
+                                <div class="content">
                                     <div class="block-content ">
                                         <div class="block-map">
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div id="map">
-                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2535.145217947182!2d5.187640516153457!3d50.550069379489216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c1a83c4c200a5f%3A0x1612c33ccc36c68!2sRue+Alphonse+Nicolas+523%2C+4520+Wanze!5e0!3m2!1sfr!2sbe!4v1526589915690" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                                        <iframe src="https://maps.google.com/maps?q=Jalan%20Pandeyan%2021B&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>-->
+                                </div>
                                 <!-- Fin de la carte -->
                         		<!-- Debut du titre des informations de contact -->
                             	<div class="main-title">
-                                	<h1>Informations de contact</h1>
+                                	<h1>Informations</h1>
                                 	<div class="divider">
                                     	<div class="zigzag large clearfix " data-svg-drawing="yes">
                                         	<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -935,26 +992,26 @@
                                                 	<div class="info-holder margTMedium wow flipInX" data-wow-duration="2s">
                                                     	<div class="address-info">
                                                         	<i class="icon-location"></i>
-                                                        	<p>Sam Ronvaux <br/> Rue Alphonse Nicolas,523<br/>4520 Moha, Belgique</p>
+                                                        	<p>Khaiz Badaru Tammam <br/> Pandeyan Street 21B<br/>Umbulharjo, Yogyakarta</p>
                                                     	</div>
                                                     	<div class="contact-info tCenter">
                                                         	<ul>
                                                             	<li>
-                                                            		<a href="mailto:samronvaux@gmail.com">
+                                                            		<a href="mailto:tammam.dev@gmail.com">
                                                                 		<div class="ico"><i class="icon-mail"></i></div>
-                                                                		<p>samronvaux@gmail.com</p>
+                                                                		<p>tammam.dev@gmail.com</p>
                                                                 	</a>
                                                             	</li>
                                                             	<li>
-                                                            		<a href="tel:0032491078668">
+                                                            		<a href="https://wa.me/6288806666381">
                                                                 		<div class="ico"><i class="icon-phone"></i></div>
-                                                                		<p>+32 491 07.86.68</p>
+                                                                		<p>+6288806666381</p>
                                                                 	</a>
                                                             	</li>
                                                             	<li>
-                                                            		<a href="https://be.linkedin.com/in/sam-ronvaux" target="_blank">
+                                                            		<a href="https://be.linkedin.com/in/khaizbt" target="_blank">
                                                                 		<div class="ico"><i class="icon-link"></i></div>
-                                                                		<p>Sam Ronvaux</p>
+                                                                		<p>Khaiz Badaru Tammam</p>
                                                                 	</a>
                                                             	</li>
                                                         	</ul>
@@ -968,7 +1025,7 @@
                             	<!-- Fin du contenu des informations de contact -->
                             	<!-- Debut du titre du formulaire -->
                             	<div class="main-title">
-                                	<h1>Formulaire de contact</h1>
+                                	<h1>Contact Me</h1>
                                 	<div class="divider">
                                     	<div class="zigzag large clearfix " data-svg-drawing="yes">
                                        		<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -989,19 +1046,19 @@
                                                     	<div class="input-columns clearfix">
                                                             <div class="column1">
                                                                 <div class="column-inner">
-                                                                    <input type="text" placeholder="Prénom" value="" id="firstname" name="firstname" autocomplete="given-name" oninput="this.value = this.value.charAt(0).toUpperCase() + this.value.substr(1);">
+                                                                    <input type="text" placeholder="Nama Depan" value="" id="firstname" name="firstname" autocomplete="given-name" oninput="this.value = this.value.charAt(0).toUpperCase() + this.value.substr(1);">
                                                                 </div>
                                                             </div>
                                                             <div class="column2">
                                                                 <div class="column-inner">
-                                                                    <input type="text" placeholder="Nom de famille" value="" id="name" name="name" autocomplete="family-name" oninput="this.value = this.value.charAt(0).toUpperCase() + this.value.substr(1);">
+                                                                    <input type="text" placeholder="Nama Belakang" value="" id="name" name="name" autocomplete="family-name" oninput="this.value = this.value.charAt(0).toUpperCase() + this.value.substr(1);">
                                                                 </div>
                                                             </div>
                                                            	<input type="text" placeholder="Email" value="" id="email" name="email" autocomplete="email" oninput="this.value = this.value.toLowerCase();">
                                                     	</div>
-                                                    	<input type="text" placeholder="Sujet" value="" id="subject" name="sujet" oninput="this.value = this.value.charAt(0).toUpperCase() + this.value.substr(1);">
-                                                    	<textarea name="message" placeholder="Message" id="message" cols="45" rows="10" oninput="this.value = this.value.charAt(0).toUpperCase() + this.value.substr(1);" ></textarea>
-                                                    	<input type="submit" value="Envoyer" class="but opc-2 submit">
+                                                    	<input type="text" placeholder="Subjek" value="" id="subject" name="sujet" oninput="this.value = this.value.charAt(0).toUpperCase() + this.value.substr(1);">
+                                                    	<textarea name="message" placeholder="Pesan Anda" id="message" cols="45" rows="10" oninput="this.value = this.value.charAt(0).toUpperCase() + this.value.substr(1);" ></textarea>
+                                                    	<input type="submit" value="Kirim" class="but opc-2 submit">
                                                 	</form>
                                                 	<!-- Fin du formulaire -->
                                                 	<!-- Debut de valeur de retour du formulaire -->
@@ -1041,16 +1098,16 @@
                                 <figure class="img-profile pushup">
                                     <img src="style/img/profile.jpg" alt="" />
                                         <figcaption class="name-profile">
-                                            <span>Sam Ronvaux</span>
+                                            <span>Khaiz Badaru Tammam</span>
                                         </figcaption>
                                 </figure>
                                 <!-- Fin de l'image de profile -->
                                 <!-- Debut du menu de navigation -->
                                 <nav id="main-nav" class="main-nav clearfix tabbed">
                                     <ul>
-                                        <li><a href="#about"><i class="icon-user"></i>About me</a></li>
-                                        <li><a href="#portfolio"><i class="icon-camera"></i>Portfolio</a></li>
-                                        <li><a href="#contact"><i class="icon-phone"></i>Contact</a></li>
+                                        <li><a href="#about1"><i class="icon-user"></i>Tentang Saya</a></li>
+                                        <li><a href="#portfolio1"><i class="icon-camera"></i>Portfolio</a></li>
+                                        <li><a href="#contact1"><i class="icon-phone"></i>Kontak Saya</a></li>
                                     </ul>
                                 </nav>
                                 <!-- Fin du menu de navigation -->
@@ -1058,9 +1115,9 @@
                             <!-- Debut des icones de réseaux sociaux -->
                             <div class="bottom-header ofsTSmall ofsBSmall tCenter">
                                 <ul class="social">
-                                    <li><a href="https://www.facebook.com/sam.ronvaux" target="_blank"><i class="icon-facebook"></i></a></li>
-                                    <li><a href="https://github.com/Syr4Z" target="_blank"><i class="icon-github"></i></a></li>
-                                    <li><a href="https://be.linkedin.com/in/sam-ronvaux" target="_blank"><i class="icon-linkedin"></i></a></li>
+                                    <li><a href="https://www.facebook.com/tamtamid" target="_blank"><i class="icon-facebook"></i></a></li>
+                                    <li><a href="https://github.com/khaizbt" target="_blank"><i class="icon-github"></i></a></li>
+                                    <li><a href="https://linkedin.com/in/khaiz-badaru-tammam-181965192" target="_blank"><i class="icon-linkedin"></i></a></li>
                                 </ul>
                             </div>
                             <!-- Fin des icones de réseaux sociaux -->
@@ -1071,12 +1128,12 @@
                     <!-- Debut de la colonne de droite (informations) -->
                     <div class="col-md-9 right-content">
                         <!-- Debut de la section a propos -->
-                        <section id="about" class="ofsInBottom">
+                        <section id="about1" class="ofsInBottom">
                             <!-- Debut de A propos -->
                             <div class="about">
                                 <!-- Debut du titre des informations personnel -->
                                 <div class="main-title">
-                                    <h1>Qui suis-je ?</h1>
+                                    <h1>Tentang Saya</h1>
                                     <div class="divider">
                                         <div class="zigzag large clearfix " data-svg-drawing="yes">
                                             <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -1091,17 +1148,17 @@
                                     <!-- Debut des colonnes de présentation -->
                                     <div class="block-content margBSmall">
                                         <div class=" profile margBSmall">
-                                            <h1>Sam Ronvaux</h1>
-                                            <h3>Étudiant en informatique</h3>
+                                            <h1>Khaiz Badaru Tammam</h1>
+                                            <h3>Software Developer</h3>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <h4>
-                                                    Qui suis-je ?
+                                                    Siapa Saya ?
                                                 </h4>
                                                 <div id="t">
-                                                    <del>Il était une fois un jeune étudia</del>
-                                                    Je suis un jeune étudiant âgé de 20 ans actuellement en bachelor Informatique Orientation Réseaux. Je suis quelqu'un de passionné par les nouvelles technologies et qui aime découvrir de nouveaux domaines. Récemment, j'ai pû découvrir une partie des choses que l'on peut réaliser avec l'impression 3D. J'ai profité de cette occasion pour en apprendre plus sur l'utilisation d'une graveuse/découpeuse laser. Cela m'a permis par la suite de partager avec des jeunes d'une dizaine d'années les connaissances que j'ai pû acquérir dans ce domaine.
+                                                    
+                                                    Penyuka tantangan, penyuka bug namun jadi benci ketika ada sebuah bug yang bersarang di Production. Saya tidak bisa tidaur nyennyak jika masih ada masalah yang belum terselesaikan. Saya bekerja sebagai Backend Developer dan mengambil project Freelance. Saya sering mengisi libur panjang untuk mendaki gunung dan traveling untuk merefresh sejenak dari hiruk pikuk pekerjaan
                                                 </div>
                                             </div>
                                         </div>
@@ -1114,18 +1171,18 @@
                                                 <!-- Debut de la colonne 1 -->
                                                 <div class="col-md-6">
                                                     <ul class="info-list clearfix wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="0s">
-                                                        <li><span class="inf">Prénom :</span> <span class="value"> Sam </span></li>
-                                                        <li><span class="inf">Âge :</span> <span class="value"> 20 ans </span></li>
-                                                        <li><span class="inf">Email :</span> <span class="value"><a class="value" href="mailto:samronvaux@gmail.com">samronvaux[at]gmail.com</a></span></li>
+                                                        <li><span class="inf">Nama :</span> <span class="value"> Khaiz Badaru Tammam</span></li>
+                                                        <li><span class="inf">Umur :</span> <span class="value"> 23 Tahun </span></li>
+                                                        <li><span class="inf">Email :</span> <span class="value"><a class="value" href="mailto:tammam.dev@gmail.com">tammam.dev[at]gmail.com</a></span></li>
                                                     </ul>
                                                 </div>
                                                 <!-- Fin de la colonne 1 -->
                                                 <!-- Debut de la colonne 2 -->
                                                 <div class="col-md-6">
                                                     <ul class="info-list clearfix wow slideInRight" data-wow-duration="1.5s" data-wow-delay="0s">
-                                                        <li><span class="inf">Nom de famille :</span> <span class="value">Ronvaux</span></li>
-                                                        <li><span class="inf">LinkedIn :</span> <span class="value"><a class="value" href="https://be.linkedin.com/in/sam-ronvaux" target="_blank">Sam Ronvaux</a></span></li>
-                                                        <li><span class="inf">N° de téléphone :</span> <span class="value"><a class="value" href="tel:0032491078668">+32 491 07.86.68</a></span></li>
+                                                        <li><span class="inf">Telegram :</span> <span class="value"><a class="value" href="https://t.me/khaizbt/" target="_blank">Khaiz Badaru Tammam</a></span></li>
+                                                        <li><span class="inf">LinkedIn :</span> <span class="value"><a class="value" href="https://www.linkedin.com/in/khaiz-badaru-tammam-181965192/" target="_blank">Khaiz Badaru Tammam</a></span></li>
+                                                        <li><span class="inf">Telepon :</span> <span class="value"><a class="value" href="https://wa.me/6288806666381">+6288806666381</a></span></li>
                                                     </ul>
                                                 </div>
                                                 <!-- Fin de la colonne 2 -->
@@ -1137,7 +1194,7 @@
                                 <!-- Fin du contenu des informations personnel -->
                                 <!-- Debut du titre des compétences professionnel -->
                                 <div class="main-title">
-                                    <h1>Compétences professionnelles</h1>
+                                    <h1>Skill Professional</h1>
                                     <div class="divider">
                                         <div class="zigzag large clearfix " data-svg-drawing="yes">
                                             <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -1159,23 +1216,39 @@
                                                             <li class="wow slideInLeft">
                                                                 <h4>HTML/CSS</h4>
                                                                 <div class="progress">
-                                                                    <div class="percentage">
-                                                                        85%
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                            <li class="wow slideInLeft">
-                                                                <h4>WINDEV</h4>
-                                                                <div class="progress">
-                                                                    <div class="percentage">
-                                                                        80%
+                                                                    <div class="percentage1">
+                                                                    75%
                                                                     </div>
                                                                 </div>
                                                             </li>
                                                             <li class="wow slideInLeft">
                                                                 <h4>PHP/MYSQL</h4>
                                                                 <div class="progress">
-                                                                    <div class="percentage">
+                                                                    <div class="percentage1">
+                                                                        80%
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="wow slideInLeft">
+                                                                <h4>LARAVEL</h4>
+                                                                <div class="progress">
+                                                                    <div class="percentage1">
+                                                                        75%
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="wow slideInLeft">
+                                                                <h4>GOLANG</h4>
+                                                                <div class="progress">
+                                                                    <div class="percentage1">
+                                                                        40%
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="wow slideInLeft">
+                                                                <h4>MongoDB</h4>
+                                                                <div class="progress">
+                                                                    <div class="percentage1">
                                                                         75%
                                                                     </div>
                                                                 </div>
@@ -1184,7 +1257,7 @@
                                                     </div>
                                                     <div class="col-md-1">
                                                         <div class="title dev wow fadeIn" data-wow-duration="2s">
-                                                            <span>Développement</span>
+                                                            <span>Development</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1200,25 +1273,33 @@
                                                     <div class="col-md-11">
                                                         <ul class="skills-list clearfix">
                                                             <li class="wow slideInLeft">
-                                                                <h4>Prise de responsabilités</h4>
+                                                                <h4>Tanggung Jawab</h4>
                                                                 <div class="progress">
-                                                                    <div class="percentage">
-                                                                        90%
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                            <li class="wow slideInLeft">
-                                                                <h4>Faculté de compréhension</h4>
-                                                                <div class="progress">
-                                                                    <div class="percentage">
+                                                                    <div class="percentage1">
                                                                         85%
                                                                     </div>
                                                                 </div>
                                                             </li>
                                                             <li class="wow slideInLeft">
-                                                                <h4>Prise d'initiatives</h4>
+                                                                <h4>Kedisiplinan</h4>
                                                                 <div class="progress">
-                                                                    <div class="percentage">
+                                                                    <div class="percentage1">
+                                                                        85%
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="wow slideInLeft">
+                                                                <h4>Penyelesaian Masalah</h4>
+                                                                <div class="progress">
+                                                                    <div class="percentage1">
+                                                                        83%
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="wow slideInLeft">
+                                                                <h4>Mengambil Inisiatif</h4>
+                                                                <div class="progress">
+                                                                    <div class="percentage1">
                                                                         90%
                                                                     </div>
                                                                 </div>
@@ -1227,7 +1308,7 @@
                                                     </div>
                                                     <div class="col-md-1">
                                                         <div class="title prs wow fadeIn" data-wow-duration="2s">
-                                                            <span>Atouts personnel</span>
+                                                            <span>Kemampuan Pribadi</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1243,26 +1324,26 @@
                                                     <div class="col-md-11">
                                                         <ul class="skills-list clearfix">
                                                             <li class="wow slideInLeft">
-                                                                <h4>Français</h4>
+                                                                <h4>Bahasa Indonesia</h4>
                                                                 <div class="progress">
-                                                                    <div class="percentage">
-                                                                        99%
+                                                                    <div class="percentage1">
+                                                                        90%
                                                                     </div>
                                                                 </div>
                                                             </li>
                                                             <li class="wow slideInLeft">
-                                                                <h4>Anglais</h4>
+                                                                <h4>Bahasa Inggris</h4>
                                                                 <div class="progress">
-                                                                    <div class="percentage">
+                                                                    <div class="percentage1">
                                                                         75%
                                                                     </div>
                                                                 </div>
                                                             </li>
                                                             <li class="wow slideInLeft">
-                                                                <h4>Néerlandais</h4>
+                                                                <h4>Bahasa Jepang</h4>
                                                                 <div class="progress">
-                                                                    <div class="percentage">
-                                                                        20%
+                                                                    <div class="percentage1">
+                                                                        10%
                                                                     </div>
                                                                 </div>
                                                             </li>
@@ -1270,7 +1351,7 @@
                                                     </div>
                                                     <div class="col-md-1">
                                                         <div class="title dev wow fadeIn" data-wow-duration="2s">
-                                                            <span>linguistique</span>
+                                                            <span>Kemampuan Bahasa</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1282,7 +1363,7 @@
                                 <!-- Fin du contenu des compétences personnel -->
                                 <!-- Debut du titre de mes diplomes -->
                                 <div class="main-title">
-                                    <h1>Mes Diplômes/Certifications</h1>
+                                    <h1>Sertifikasi Professional</h1>
                                     <div class="divider">
                                         <div class="zigzag large clearfix " data-svg-drawing="yes">
                                             <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -1300,41 +1381,46 @@
                                                 <div class="col-md-12">
                                                     <div class="exp-holder margTop">
                                                     	<!-- Debut d'un diplome -->
+                                                        <div class="exp-holder margTop">
+                                                            <!-- Debut d'un diplome -->
+                                                            <div class="exp wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
+                                                                <div class="hgroup">
+                                                                    <h4>Re-Cloud Challenges Indonesia 2021</h4>
+                                                                    <h5>Codepolitan & Alibaba Edu</h5>
+                                                                    <h6><i class="icon-calendar"></i>March 2021</h6>
+                                                                </div>
+                                                                <p>Sertifikat Keikut sertaan pada Event Re-Cloud Challenges Indonesia yang berisi tantangan dan mengirimkan Website terbaik</p>
+                                                                <a href="https://xuecdn2.aliyunedu.net/img_4b1940d39a224d359405c9e3b596f361.png" target="_blank">View Credential</a>
+                                                            </div>
+                                                            <div class="exp wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
+                                                                <div class="hgroup">
+                                                                    <h4>Operate and Manage Cloud Server</h4>
+                                                                    <h5>Alibaba Edu</h5>
+                                                                    <h6><i class="icon-calendar"></i>Feb 2021</h6>
+                                                                </div>
+                                                                <p>Sertifikat Kelulusan dalam management Alibaba Cloud /VPS Server</p>
+                                                                <a href="https://xuecdn2.aliyunedu.net/img_57e6ae9439993ef8cd47b19889b01569.png" target="_blank">View Credential</a>
+                                                            </div>
+                                                            <div class="exp wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
+                                                                <div class="hgroup">
+                                                                    <h4>Operate and Manage Relational Database on the Cloud</h4>
+                                                                    <h5>Alibaba Edu</h5>
+                                                                    <h6><i class="icon-calendar"></i>Feb 2021</h6>
+                                                                </div>
+                                                                <p>Sertifikat Kelulusan dalam manajement Relational Database pada Alibaba Cloud/VPS Server</p>
+                                                                <a href="https://xuecdn2.aliyunedu.net/img_9f6b6a48df08c804d0549be0fe820e8c.png" target="_blank">View Credential</a>
+                                                            </div>
                                                         <div class="exp wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
                                                             <div class="hgroup">
-                                                                <h4>Aide Moniteur - ASBL Vive le sport</h4>
-                                                                <h6><i class="icon-calendar"></i>Aout 2016</h6>
+                                                                <h4>Foresec Certified Networking Security</h4>
+                                                                    <h5>Foresec</h5>
+                                                                <h6><i class="icon-calendar"></i>Sept 2017</h6>
                                                             </div>
-                                                            <p>Réussite de ma formation en tant aide moniteur sportif auprès de l'ASBL vive le sport.</p>
+                                                            <p>Program Ini memberi Pengetahuan akan keamanan system informasi.</p>
                                                         </div>
                                                         <!-- Fin d'un diplome -->
                                                         <!-- Debut d'un diplome -->
-                                                        <div class="exp wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
-                                                            <div class="hgroup">
-                                                                <h4>CESS - ITCF Henri Maus</h4>
-                                                                <h6><i class="icon-calendar"></i>Juin 2016</h6>
-                                                            </div>
-                                                            <p>Réussite de mon Certificat d'enseignement secondaire supérieur au sein de l'ITCF Henri Maus.</p>
-                                                        </div>
-                                                        <!-- Fin d'un diplome -->
-                                                        <!-- Debut d'un diplome -->
-                                                        <div class="exp wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
-                                                            <div class="hgroup">
-                                                                <h4>Microsoft Windows 2012 R2 - Technofutur TIC</h4>
-                                                                <h6><i class="icon-calendar"></i>Juin 2016</h6>
-                                                            </div>
-                                                            <p>Fin de ma formation Microsoft Windows 2012 R2 dans le cadre d'une formation fournie par l'ITCF Henri Maus et donnée par un employé de chez MGC pour Technofutur TIC.
-                                                            </p>
-                                                        </div>
-                                                        <!-- Fin d'un diplome -->
-                                                        <!-- Debut d'un diplome -->
-                                                        <div class="exp wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
-                                                            <div class="hgroup">
-                                                                <h4>HTML 5 / CSS3 - Technofutur TIC</h4>
-                                                                <h6><i class="icon-calendar"></i>Juin 2015</h6>
-                                                            </div>
-                                                            <p>Réussite de ma formation HTML5 et CSS3 dans le cadre d'une formation fournie par l'ITCF Henri Maus et donnée par des formateurs Technofutur TIC.</p>
-                                                        </div>
+                                                        
                                                         <!-- Fin d'un diplome -->
                                                     </div>
                                                 </div>
@@ -1345,7 +1431,7 @@
                                 <!-- Fin du contenu de mes diplomes -->
                                 <!-- Debut du titre des expériences professionnel -->
                                 <div class="main-title">
-                                    <h1>Parcours professionnelles</h1>
+                                    <h1>Pengalaman Kerja</h1>
                                     <div class="divider">
                                         <div class="zigzag large clearfix " data-svg-drawing="yes">
                                             <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -1365,46 +1451,23 @@
                                                         <!-- Debut d'une expérience -->
                                                         <div class="exp wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
                                                             <div class="hgroup">
-                                                                <h4>Bénévole - Espace Public Numérique</h4>
-                                                                <h6><i class="icon-calendar"></i>Du 02 Mars au 06 Mars 2018</h6>
+                                                                <h4><a href="http://technopartner.id" target="_blank">CV Technopartner Indonesia - Backend Developer</a></h4>
+                                                                <h6><i class="icon-calendar"></i>Mulai 21 Jan 2020 - - <span class="current">Saat Ini</span></h6>
                                                             </div>
-                                                            <p>Aide lors de stage à mon ancien lieu de stage. Test de nouvelles machines (graveuse laser, imprimante 3D, ...) et préparation de salle pour l'activité LinuxD proposé par des organismes externes.</p>
+                                                            <p>Membangun Aplikasi Web dan membuat Rest API dan mengembangkan sebuah aplikasi.</p>
                                                         </div>
                                                         <!-- Fin d'une expérience -->
                                                         <!-- Debut d'une expérience -->
                                                         <div class="exp wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
                                                             <div class="hgroup">
-                                                                <h4>Etudiant - Avieta SA</h4>
-                                                                <h6><i class="icon-calendar"></i>Juillet 2017</h6>
+                                                                <h4>PT Kreasi Digital Indo tama</h4>
+                                                                <h6><i class="icon-calendar"></i>dari 01 Oct sampai 31 Dec <span class="current">Magang</span></h6>
                                                             </div>
-                                                            <p>Travail en tant qu'étudiant au sein de l'équipe de Avieta SA. Travail ayant pour tâche de fabriquer des gaufres de différents types de manière industrielle pour des revendeurs internationaux.</p>
+                                                            <p>Membuat Aplikasi Web menggunakan Laravel dan Codeigniter.</p>
                                                         </div>
                                                         <!-- Fin d'une expérience -->
                                                         <!-- Debut d'une expérience -->
-                                                        <div class="exp wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
-                                                            <div class="hgroup">
-                                                                <h4>Aide-Moniteur - ASBL Vive Le Sport</h4>
-                                                                <h6><i class="icon-calendar"></i>Juillet et Août 2017</h6>
-                                                            </div>
-                                                            <p>Travail de fin de formation en tant qu'aide moniteur pour des enfants de 4 à 14 ans dans un hall omnisports organisant des stages multisport.
-                                                            </p>
-                                                        </div>
-                                                        <!-- Fin d'une expérience -->
-                                                        <!-- Debut d'une expérience -->
-                                                        <div class="exp wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
-                                                            <div class="hgroup">
-                                                                <h4>Etudiant - Avieta SA</h4>
-                                                                <h6><i class="icon-calendar"></i>Juillet et Août 2016</h6>
-                                                            </div>
-                                                            <p>Travail en tant qu'étudiant au sein de l'équipe de Avieta SA. Travail ayant pour tâche de fabriquer des gaufres de différents types de manière industrielle pour des revendeurs internationaux.</p>
-                                                        </div>
-                                                        <!-- Fin d'une expérience -->
-                                                        <!-- Debut d'une expérience -->
-                                                        <div class="exp wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
-                                                            <div class="hgroup">
-                                                                <h4>...</h4>
-                                                            </div>
-                                                        </div>
+                                                        
                                                         <!-- Fin d'une expérience -->
                                                     </div>
                                                 </div>
@@ -1415,7 +1478,7 @@
                                 <!-- Fin du contenu des expériences professionnel -->
                                 <!-- Debut du titre du parcours scolaire -->
                                 <div class="main-title">
-                                    <h1>Scolarité</h1>
+                                    <h1>Riwayat Pendidikan</h1>
                                     <div class="divider">
                                         <div class="zigzag large clearfix " data-svg-drawing="yes">
                                             <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -1435,38 +1498,23 @@
                                                         <!-- Debut d'une formation -->
                                                         <div class="exp wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
                                                             <div class="hgroup">
-                                                                <h4>Haute Ecole en Hainaut (ISIMs)</h4>
-                                                                <h6><i class="icon-calendar"></i>Sept 2016 - <span class="current">Maintenant</span></h6>
+                                                                <h4>Universitas Amikom Purwokerto</h4>
+                                                                <h6><i class="icon-calendar"></i>Okt 2015-Agust 2019</h6>
                                                             </div>
-                                                            <p>Bachelier en informatique réseaux et systèmes</p>
+                                                            <p>Teknik Informatika | <span><b>IPK : 3.49</b></span></p>
                                                         </div>
                                                         <!-- Fin d'une formation -->
                                                         <!-- Debut d'une formation -->
                                                         <div class="exp wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
                                                             <div class="hgroup">
-                                                                <h4>ITCF Henri Maus</h4>
-                                                                <h6><i class="icon-calendar"></i>Sept 2014 - Juin 2016</h6>
+                                                                <h4>SMK Komputama Majenang</h4>
+                                                                <h6><i class="icon-calendar"></i>Jul 2012 - Jun 2015</h6>
                                                             </div>
-                                                            <p>Technique de qualification en informatique réseaux et systèmes.</p>
+                                                            <p>Teknik Komputer dan Jaringan</p>
                                                         </div>
                                                         <!-- Fin d'une formation -->
                                                         <!-- Debut d'une formation -->
-                                                        <div class="exp wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
-                                                            <div class="hgroup">
-                                                                <h4>Institut Sainte Marie de Huy</h4>
-                                                                <h6><i class="icon-calendar"></i>Janvier - Juin 2014</h6>
-                                                            </div>
-                                                            <p>Technique de transition orientation social</p>
-                                                        </div>
-                                                        <!-- Fin d'une formation -->
-                                                        <!-- Debut d'une formation -->
-                                                        <div class="exp wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
-                                                            <div class="hgroup">
-                                                                <h4>Institut Sainte Marie de Huy</h4>
-                                                                <h6><i class="icon-calendar"></i>Sept 2010 - Décembre 2013</h6>
-                                                            </div>
-                                                            <p>Étude secondaire général avec option sciences forte</p>
-                                                        </div>
+                                                       
                                                         <!-- Fin d'une formation -->
                                                     </div>
                                                 </div>
@@ -1477,7 +1525,7 @@
                                 <!-- Fin du contenu du parcours scolaire -->
                                 <!-- Debut du titre de mes hobbys -->
                                 <div class="main-title">
-                                    <h1>Mes Hobbies</h1>
+                                    <h1>HOBBY</h1>
                                     <div class="divider">
                                         <div class="zigzag large clearfix " data-svg-drawing="yes">
                                             <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -1495,11 +1543,11 @@
                                                 <div class="block service tCenter">
                                                     <div class="col-md-4">
                                                         <div class="ico wow flipInY" data-wow-duration="2s" data-wow-delay="0s">
-                                                            <i class="icon-lifebuoy"></i>
+                                                            <i class="icon-compass"></i>
                                                         </div>
                                                         <div class="det wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
-                                                            <h3>Dépannage</h3>
-                                                            <p>Toujours disponible pour aider mes proches ou approfondir mes connaissances informatiques.</p>
+                                                            <h3>Mendaki</h3>
+                                                            <p>Kadang Ada waktu untuk merefresh otak agar dapat bersemangat kembali</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-4">
@@ -1511,8 +1559,8 @@
                                                             <i class="icon-print-1"></i>
                                                         </div>
                                                         <div class="det wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
-                                                            <h3>Impression et gravure</h3>
-                                                            <p>Toujours à la recherche de connaissance j'occupe une partie de mon temps à faire des impressions 3D et de la gravure laser sur mon ancien lieu de stage.</p>
+                                                            <h3>Membuat Bug</h3>
+                                                            <p>Adakalanya saya membuat Bug untuk diperbaiki dan menghasilkan Aplikasi yang baik.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1535,8 +1583,8 @@
                                                             <i class="icon-monitor"></i>
                                                         </div>
                                                         <div class="det wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">
-                                                            <h3>WebMaster</h3>
-                                                            <p>Je réalise des sites web afin de m'entraîner au développement et à de nouvelles technologies.</p>
+                                                            <h3>Belajar Sesuatu yang baru</h3>
+                                                            <p>Teknologi akan selalu berkembang, Jika Kita berpuas diri akan yang kita punya maka kita akan tertinggal.</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-4">
@@ -1548,8 +1596,8 @@
                                                             <i class="icon-tools wow flipInY" data-wow-duration="2s" data-wow-delay="1.2s"></i>
                                                         </div>
                                                         <div class="det wow fadeIn" data-wow-duration="2s" data-wow-delay="1.4s">
-                                                            <h3>Dévelopement</h3>
-                                                            <p>Je réalise différentes applications afin d'approfondir mes connaissances en Windev</p>
+                                                            <h3>Bermain Game</h3>
+                                                            <p>Adakalanya Bosan dalam dunia perkodingan, maka bermain game akan membuat saya relax</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1557,10 +1605,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Fin du contenu de mes hobbys -->
-                                <!-- Debut du titre des avis -->
                                 <div class="main-title">
-                                    <h1>Avis me concernant</h1>
+                                    <h1>Rekomendasi</h1>
                                     <div class="divider">
                                         <div class="zigzag large clearfix " data-svg-drawing="yes">
                                             <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -1577,41 +1623,86 @@
                                             <div class="row ">
                                                 <div class="col-md-12">
                                                     <div class="testi clearfix wow fadeIn" data-wow-duration="2s">
-                                                        <ul id="testimonial-carousel">
+                                                        <ul class="testimonial-carousel">
                                                             <li>
                                                                 <div class="block-quote">
                                                                     <div class="block-img">
-                                                                        <img alt="" src="style/img/testimonial/1.jpg">
+                                                                        <img alt="" src="style/img/testimonial/farhan-fauzan.jfif">
                                                                     </div>
                                                                     <div class="block-icon">
                                                                         <i class="icon-quote"></i>
                                                                     </div>
                                                                     <h3 class="block-profile">
+                                                                        Farhan Fauzan
+                                                                        <span> Backend Developer pada Avo Innovation & Technology </span>
+                                                                    </h3>
+                                                                    <blockquote>
+                                                                        Halo, izinkan saya memperkenalkan Anda kepada rekan saya dan juga teman dekat saya di CV Technopartner Indonesia. Namanya Khaiz Badaru Tammam tapi Anda juga bisa memanggilnya Temmem. Dia adalah seorang programmer yang sangat bersemangat yang bekerja sangat keras untuk menjadi yang teratas meskipun dia masih jauh dari itu. Tapi tetap saja, Anda bisa memperhitungkannya! Berhati-hatilah dengan lelucon bapak-bapaknya dan permainan tebakan acak yang membingungkan.
+                                                                    </blockquote>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="block-quote">
+                                                                    <div class="block-img">
+                                                                        <img alt="" src="style/img/testimonial/fenny.jfif">
+                                                                    </div>
+                                                                    <div class="block-icon">
+                                                                        <i class="icon-quote"></i>
+                                                                    </div>
+                                                                    <h3 class="block-profile">
+                                                                        Fenny Meinawati
+                                                                        <span> Software Quality Assurance pada Avo Innovation and Technology</span>
+                                                                    </h3>
+                                                                    <blockquote>
+                                                                        Saya bekerja satu tim dengannya di Technopartner Indonesia. Dia aktif dalam diskusi dan tidak ragu untuk bertanya. Setiap hari ada lebih banyak inovasi yang bisa dia terapkan di semua proyek. Dia suka membuat lelucon agar tim tidak bosan. Orang yang menarik!
+                                                                    </blockquote>
+                                                                </div>
+                                                            </li>
+                                                           
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Fin du contenu de mes hobbys -->
+                                <!-- Debut du titre des avis -->
+                                <div class="main-title">
+                                    <h1>Motto Saya</h1>
+                                    <div class="divider">
+                                        <div class="zigzag large clearfix " data-svg-drawing="yes">
+                                            <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+	                                           <path d="M1.357,12.26 10.807,2.81 20.328,12.332 29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Fin du titre des avis -->
+                                <!-- Debut du contenu des avis -->
+                                <div class="content">
+                                    <div class="block-content">
+                                        <div class="testimonials">
+                                            <div class="row ">
+                                                <div class="col-md-12">
+                                                    <div class="testi clearfix wow fadeIn" data-wow-duration="2s">
+                                                        <ul class="testimonial-carousel">
+                                                            <li>
+                                                                <div class="block-quote">
+                                                                   
+                                                                    <div class="block-icon">
+                                                                        <i class="icon-quote"></i>
+                                                                    </div>
+                                                                    <!-- <h3 class="block-profile">
                                                                         Michel Jadot
                                                                         <span> Coordinateur / EPN de Huy</span>
-                                                                    </h3>
+                                                                    </h3> -->
                                                                     <blockquote>
-                                                                        Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la majeure partie d'entre elles a été altérée par l'addition d'humour ou de mots aléatoires qui ne ressemblent pas une seconde à du texte standard. Si vous voulez utiliser un passage du Lorem Ipsum, vous devez être sûr qu'il n'y a rien d'embarrassant caché dans le texte
+                                                                        Jangan Bilang ke Allah jika kita mempunyai masalah yang  besar, bilanglah ke masalah jika kita mempunyai Allah  yang Maha Besar
                                                                     </blockquote>
                                                                 </div>
                                                             </li>
-                                                            <li>
-                                                                <div class="block-quote">
-                                                                    <div class="block-img">
-                                                                        <img alt="" src="style/img/testimonial/2.jpg">
-                                                                    </div>
-                                                                    <div class="block-icon">
-                                                                        <i class="icon-quote"></i>
-                                                                    </div>
-                                                                    <h3 class="block-profile">
-                                                                        Nom Prenom
-                                                                        <span> Poste / Société</span>
-                                                                    </h3>
-                                                                    <blockquote>
-                                                                        Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la majeure partie d'entre elles a été altérée par l'addition d'humour ou de mots aléatoires qui ne ressemblent pas une seconde à du texte standard. Si vous voulez utiliser un passage du Lorem Ipsum, vous devez être sûr qu'il n'y a rien d'embarrassant caché dans le texte
-                                                                    </blockquote>
-                                                                </div>
-                                                            </li>
+                                                           
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -1631,8 +1722,8 @@
                                     </div>
                                     <div class="row ">
                                         <div class="col-md-12">
-                                            <a class="but opc-1 ico" href="#">Télécharger mon CV</a>
-                                            <a class="but opc-2 ico" href="javascript:window.print()">Imprimer mon CV</a>
+                                            <a class="but opc-1 ico" href="#">Lihat CV</a>
+                                            <a class="but opc-2 ico" href="javascript:window.print()">Print CV</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1642,11 +1733,11 @@
                         </section>
                         <!-- Fin de la section a propos -->
                         <!-- Debut de la section portfolio -->
-                        <section id="portfolio" class="ofsInBottom">
+                        <section id="portfolio1" class="ofsInBottom">
                             <div class="portfolio">
                                 <!-- Debut du titre du portfolio -->
                                 <div class="main-title">
-                                    <h1>Mes Travaux</h1>
+                                    <h1>Portfolio Saya</h1>
                                     <div class="divider">
                                         <div class="zigzag large clearfix " data-svg-drawing="yes">
                                             <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -1883,11 +1974,11 @@
                         </section>
                         <!-- Fin de la section du portfolio -->
                         <!-- Debut de la section contact -->
-                    	<section id="contact" class="bgWhite ofsInBottom">
+                    	<section id="contact1" class="bgWhite ofsInBottom">
                         	<div class="contact">
                                 <!-- Debut du titre de la carte -->
 								<div class="main-title">
-								    <h1>Carte</h1>
+								    <h1>Lokasi</h1>
 									<div class="divider">
 									   <div class="zigzag large clearfix "  data-svg-drawing="yes" >
                                             <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -1904,8 +1995,9 @@
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div id="map">
-                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2535.145217947182!2d5.187640516153457!3d50.550069379489216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c1a83c4c200a5f%3A0x1612c33ccc36c68!2sRue+Alphonse+Nicolas+523%2C+4520+Wanze!5e0!3m2!1sfr!2sbe!4v1526589915690" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                                        <iframe src="https://maps.google.com/maps?q=Jalan%20Pandeyan%2021B&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
                                                     </div>
+                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -1914,7 +2006,7 @@
                                 <!-- Fin de la carte -->
                         		<!-- Debut du titre des informations de contact -->
                             	<div class="main-title">
-                                	<h1>Informations de contact</h1>
+                                	<h1>Informasi</h1>
                                 	<div class="divider">
                                     	<div class="zigzag large clearfix " data-svg-drawing="yes">
                                         	<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -1933,26 +2025,26 @@
                                                 	<div class="info-holder margTMedium wow flipInX" data-wow-duration="2s">
                                                     	<div class="address-info">
                                                         	<i class="icon-location"></i>
-                                                        	<p>Sam Ronvaux <br/> Rue Alphonse Nicolas,523<br/>4520 Moha, Belgique</p>
+                                                        	<p>Khaiz Badaru Tammam <br/> Jalan Pandeyan No 21B<br/>Umbulharjo, Yogyakarta</p>
                                                     	</div>
                                                     	<div class="contact-info tCenter">
                                                         	<ul>
                                                             	<li>
-                                                            		<a href="mailto:samronvaux@gmail.com">
+                                                            		<a href="mailto:tammam.dev@gmail.com">
                                                                 		<div class="ico"><i class="icon-mail"></i></div>
-                                                                		<p>samronvaux@gmail.com</p>
+                                                                		<p>tammam.dev@gmail.com</p>
                                                                 	</a>
                                                             	</li>
                                                             	<li>
-                                                            		<a href="tel:0032491078668">
+                                                            		<a href="https://wa.me/6288806666381">
                                                                 		<div class="ico"><i class="icon-phone"></i></div>
-                                                                		<p>+32 491 07.86.68</p>
+                                                                		<p>+6288806666381</p>
                                                                 	</a>
                                                             	</li>
                                                             	<li>
-                                                            		<a href="https://be.linkedin.com/in/sam-ronvaux" target="_blank">
+                                                            		<a href="https://be.linkedin.com/in/khaizbt" target="_blank">
                                                                 		<div class="ico"><i class="icon-link"></i></div>
-                                                                		<p>Sam Ronvaux</p>
+                                                                		<p>Khaiz Badaru Tammam</p>
                                                                 	</a>
                                                             	</li>
                                                         	</ul>
@@ -1999,7 +2091,7 @@
                                                     	</div>
                                                     	<input type="text" placeholder="Sujet" value="" id="subject" name="sujet" oninput="this.value = this.value.charAt(0).toUpperCase() + this.value.substr(1);">
                                                     	<textarea name="message" placeholder="Message" id="message" cols="45" rows="10" oninput="this.value = this.value.charAt(0).toUpperCase() + this.value.substr(1);" ></textarea>
-                                                    	<input type="submit" value="Envoyer" class="but opc-2 submit">
+                                                    	<input type="submit" value="Submit" class="but opc-2 submit">
                                                 	</form>
                                                 	<!-- Fin du formulaire -->
                                                 	<!-- Debut de valeur de retour du formulaire -->
@@ -2062,7 +2154,7 @@
                         });
                         $("body").prognroll({
                             height: 5,
-                            color: "#CD5353",
+                            color: "#0384fc",
                             custom: false
                         });
                     });
